@@ -7,9 +7,11 @@ Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun 
 
 Programs:
 
-wastrid_boot.pl
-  - This program is depends on weighted ASTRID (https://github.com/RuneBlaze/internode)
-  - Running without command line options it will provide usage instructions
+1. wastrid_boot.pl
+  - Bootstraps gene trees to generate support values for weighted ASTRID (wASTRID)
+  - This program is depends on the wastrid executable (download from https://github.com/RuneBlaze/internode)
+  - Set the path to the wastrid executable on line 13
+  - Running without command line options it will provide usage instructions, as follows
 
 ```
 Usage:
