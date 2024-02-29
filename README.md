@@ -38,8 +38,8 @@ All nexus treefiles have a taxon block and a trees block (so they can be opened 
   - S1: Nexus treefile for the complete allfam dataset
   - S2: Nexus treefile for the well-sampled allfam dataset
   - S3: Nexus treefile for both Jarvis datasets
-  - Newick_SVDquartets_exhaustive_nonpasserines.tre:
-  - Newick_SVDquartets_exhaustive_nonpasserines.tre:
+  - Newick_SVDquartets_exhaustive_nonpasserines.tre: single tree, newick format, for the exhaustive sampling SVDquartets tree for non-passerines
+  - Newick_SVDquartets_exhaustive_passerines.tre:
 
 ### Figure
 
