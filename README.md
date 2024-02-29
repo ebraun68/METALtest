@@ -44,7 +44,8 @@ All nexus treefiles have a taxon block and a trees block (so they can be opened 
 ### Figure
 pdf with wASTRAL, wASTRID, and SVDquartets trees for the Jarvis intron dataset. Trees are also included in File S3.
 
-### Perl program:
+Code:
+ - 
 
 ### wastrid_boot.pl
   - Bootstraps gene trees to generate support values for weighted ASTRID (wASTRID)
