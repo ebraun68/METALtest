@@ -33,6 +33,16 @@ All tables are excel files:
   - S4: Recovery of orders in Reddy et al. 2017, https://doi.org/10.1093/sysbio/syx041 (used to establish reliable clades)
   - S5: Base composition of each taxon in the Jarvis datasets
 
+### Files
+All nexus treefiles have a taxon block and a trees block (so they can be opened in PAUP* or by FigTree) as well as comments describing their contents. The individual trees can be extracted as newick files using the nextrees2newick.sh script described below.
+  - S1: Nexus treefile for the complete allfam dataset
+  - S2: Nexus treefile for the well-sampled allfam dataset
+  - S3: Nexus treefile for both Jarvis datasets
+  - Newick_SVDquartets_exhaustive_nonpasserines.tre:
+  - Newick_SVDquartets_exhaustive_nonpasserines.tre:
+
+### Figure
+
 ### Perl program:
 
 ### wastrid_boot.pl
@@ -43,15 +53,16 @@ All tables are excel files:
 
 ```
 perl wastrid_boot.pl
+  - will result in the following output:
 
 Usage:
-  $ wastrid_boot.pl <treefile> <outfile> <reps> <seed>\n\n";
-  treefile = newick treefile, one gene tree per line\n";
-  outfile  = outfile prefix\n";
-  reps     = number of bootstrap replicates\n";
-  seed     = random number seed\n";
+  $ wastrid_boot.pl <treefile> <outfile> <reps> <seed>
+  treefile = newick treefile, one gene tree per line
+  outfile  = outfile prefix
+  reps     = number of bootstrap replicates
+  seed     = random number seed
 
-  NOTE: Trees are assumed to have 0-1 branch support\n";
+  NOTE: Trees are assumed to have 0-1 branch support
 ```
 ### Shell scripts:
 
