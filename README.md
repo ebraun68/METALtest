@@ -5,7 +5,7 @@ These analyses are described in:
 
 Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun MJ, Kimball RT, Faircloth BC. (2024) Testing the mettle of METAL: A comparison of phylogenomic methods using a challenging but well-resolved phylogeny.
 
-Programs:
+### Programs:
 
 ### wastrid_boot.pl
   - Bootstraps gene trees to generate support values for weighted ASTRID (wASTRID)
@@ -23,3 +23,15 @@ Usage:
 
   NOTE: Trees are assumed to have 0-1 branch support\n";
 ```
+### Shell scripts
+
+Three scripts to simplify use of the "mettle of METAL" data
+
+### nextrees2newick.sh
+  - Extracts individual trees from the nexus treefile as individual newick strings
+  - Run like this: bash nextrees2newick.sh <treefile>
+
+### rename_allfam.sh and rename_Jarvis.sh
+  - Change taxon abbreviations (used in data files) to ORDER_Family_Genus_species format
+
+
