@@ -5,9 +5,10 @@ These analyses are described in:
 
 Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun MJ, Kimball RT, Faircloth BC. (2024) Testing the mettle of METAL: A comparison of phylogenomic methods using a challenging but well-resolved phylogeny.
 
-This manuscript 
- - 
- - S1: List of tissue sources for the allfam dataset
+This manuscript describes multiple analyses of four datasets:
+ - Complete allfam = UCE dataset 
+ - "Well-sampled" allfam =
+ - Jarvis UCE = UCE data from 48 taxa ; from Jarvis et al. (2014) https://doi.org/10.1126/science.1253451
 
 ### Supporting data:
 
