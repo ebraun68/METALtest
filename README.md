@@ -16,6 +16,11 @@ The analyses were:
  - SVDquartets (as implemented in PAUP*)
  - Neighbor-joining (NJ) of six different distance estimators
 
+Methods were evaluated using the "reliable clade recovery" criterion. To identify reliable clades (clades that are very likely to be present in the true avian species tree) we summarize and evaluate earlier studies of avian phylogeny. 
+We break the reliable clades into three categories: 
+   1) easy clades (often recovered in analyses of individual gene regions)
+   2) medium clades (typically recovered in analyses of multiple [>10] gene tregions)
+
 ### Supporting data:
 
 ### Tables
