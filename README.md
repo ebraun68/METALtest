@@ -1,21 +1,30 @@
 ## METALtest
-Supporting data and programs for an empirical test of "species tree" methods, including METAL. 
-
-These analyses are described in:
+Supporting data and programs for an empirical test of "species tree" methods, including METAL, described in:
 
 Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun MJ, Kimball RT, Faircloth BC. (2024) Testing the mettle of METAL: A comparison of phylogenomic methods using a challenging but well-resolved phylogeny.
 
 This manuscript describes multiple analyses of four datasets:
- - Complete allfam = UCE dataset 
- - "Well-sampled" allfam =
- - Jarvis UCE = UCE data from 48 taxa ; from Jarvis et al. (2014) https://doi.org/10.1126/science.1253451
+ - Complete allfam = UCE dataset with 4,307 loci sampled from 396 taxa (all orders and 250 of 253 families)
+ - "Well-sampled" allfam = complete allfam dataset excluding 27 taxa with relatively poor sequence recovery
+ - Jarvis UCE = UCE data from 48 taxa (from Jarvis et al. 2014, https://doi.org/10.1126/science.1253451)
+ - Jarvis intron = intron data from 48 taxa (from Jarvis et al. 2014, https://doi.org/10.1126/science.1253451)
+
+The analyses were:
+ - ML concatenation (primarily IQ-TREE)
+ - Weighted ASTRAL
+ - Weighted ASTRID
+ - SVDquartets (as implemented in PAUP*)
+ - Neighbor-joining (NJ) of six different distance estimators
 
 ### Supporting data:
 
 ### Tables
 All tables are excel files:
-  - S1: List of tissue sources for the allfam dataset
-  - S2: 
+  - S1: List of tissue sources for novel data in the allfam dataset
+  - S2: Numbers of taxa sampled in each order and family
+  - S3: Amount of data present for each taxon in the complete allfam dataset
+  - S4: Recovery of orders in Reddy et al. 2017, https://doi.org/10.1093/sysbio/syx041 (used to establish reliable clades)
+  - S5: Base composition of each taxon in the Jarvis datasets
 
 ### Perl program:
 
