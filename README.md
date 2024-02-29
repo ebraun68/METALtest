@@ -11,8 +11,8 @@ This manuscript describes multiple analyses of four datasets:
 
 The analyses were:
  - ML concatenation (primarily IQ-TREE)
- - Weighted ASTRAL
- - Weighted ASTRID
+ - Weighted ASTRAL (wASTRAL)
+ - Weighted ASTRID (wASTRID)
  - SVDquartets (as implemented in PAUP*)
  - Neighbor-joining (NJ) of six different distance estimators
 
@@ -38,10 +38,11 @@ All nexus treefiles have a taxon block and a trees block (so they can be opened 
   - S1: Nexus treefile for the complete allfam dataset
   - S2: Nexus treefile for the well-sampled allfam dataset
   - S3: Nexus treefile for both Jarvis datasets
-  - Newick_SVDquartets_exhaustive_nonpasserines.tre: single tree, newick format, for the exhaustive sampling SVDquartets tree for non-passerines
-  - Newick_SVDquartets_exhaustive_passerines.tre:
+  - Newick_SVDquartets_exhaustive_nonpasserines.tre: single tree, newick format, for the exhaustive sampling SVDquartets tree for non-passerines (including crocodilian outgroups) + a small number of passerines (to allow the tree to be combined with the passerine tree).
+  - Newick_SVDquartets_exhaustive_passerines.tre:single tree, newick format, for the exhaustive sampling SVDquartets tree for passerines + a small number of non-passerines (to allow the tree to be combined with the passerine tree).
 
 ### Figure
+pdf with wASTRAL, wASTRID, and SVDquartets trees for the Jarvis intron dataset. Trees are also included in File S3.
 
 ### Perl program:
 
