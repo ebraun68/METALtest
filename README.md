@@ -7,6 +7,9 @@ Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun 
 
 ### Supporting data:
 
+### Tables
+All table are excel files:
+  - S1: List of tissue sources for the allfam dataset
 
 ### Perl program:
 
@@ -17,6 +20,8 @@ Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun 
   - Running without command line options it will provide usage instructions, as follows
 
 ```
+perl wastrid_boot.pl
+
 Usage:
   $ wastrid_boot.pl <treefile> <outfile> <reps> <seed>\n\n";
   treefile = newick treefile, one gene tree per line\n";
