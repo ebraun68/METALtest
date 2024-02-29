@@ -1,4 +1,4 @@
-# METALtest
+## METALtest
 Supporting data and programs for an empirical test of "species tree" methods, including METAL. 
 
 These analyses are described in:
@@ -7,7 +7,7 @@ Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun 
 
 Programs:
 
-1. wastrid_boot.pl
+### wastrid_boot.pl
   - Bootstraps gene trees to generate support values for weighted ASTRID (wASTRID)
   - This program is depends on the wastrid executable (download from https://github.com/RuneBlaze/internode)
   - Set the path to the wastrid executable on line 13
