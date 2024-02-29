@@ -8,7 +8,7 @@ Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun 
 ### Supporting data:
 
 ### Tables
-All table are excel files:
+All tables are excel files:
   - S1: List of tissue sources for the allfam dataset
 
 ### Perl program:
