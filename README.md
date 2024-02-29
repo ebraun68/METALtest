@@ -22,7 +22,7 @@ We break the reliable clades into three categories:
    2) medium clades (typically recovered in analyses of multiple [>10] gene tregions)
    3) hard clades (likely to be correct but only recovered in phylogenomic studies)
 
-### Supporting data:
+Supporting data:
  - 
 
 ### Tables
