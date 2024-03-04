@@ -1,7 +1,7 @@
 ## METALtest
 Supporting data and programs for an empirical test of "species tree" methods, including METAL, described in:
 
-Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun MJ, Kimball RT, Faircloth BC. (2024) Testing the mettle of METAL: A comparison of phylogenomic methods using a challenging but well-resolved phylogeny.
+Braun EL, Oliveros CH, White Carreiro ND, Zhao M, Glenn TC, Brumfield RT, Braun MJ, Kimball RT, Faircloth BC. (2024) Testing the mettle of METAL: A comparison of phylogenomic methods using a challenging but well-resolved phylogeny. bioRxiv 2024.02.28.582627; https://doi.org/10.1101/2024.02.28.582627
 
 This manuscript describes multiple analyses of four datasets:
  - Complete allfam = UCE dataset with 4,307 loci sampled from 396 taxa (all orders and 250 of 253 families)
